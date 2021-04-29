@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota</title>
+    <link rel="stylesheet" href="mystyles1.css">
+    <link rel="stylesheet" href="areapercar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <nav>
+        <a class="active" href="home.html" target="iframe">Home</a>
+        <a href="news.html" target="iframe">Upcoming</a>
+        <a href="mailto:group13@gmail.com" target="iframe">Contact</a>
+        <a href="#about" target="iframe">About</a>
+        <div class="animation start-home"></div>
+     </nav>
+
+    <form class="brandselect">
+        <select id="selectbrand" onchange="lp(this.value)" >
+        <option value="nothing">Toyota</option>
+        <option value="volkswagen.html">Volkswagen</option>
+        <option value="ford.html">Ford</option>
+        <option value="honda.html">Honda</option>
+        <option value="hyundai.html">Hyundai</option>
+        <option value="datsun.html">Datsun</option>
+        <option value="renault.html">Renault</option>
+        <option value="tata.html">Tata</option>
+        <option value="mahindra.html">Mahindra</option>
+        <option value="suzuki.html">Maruthi Suzuki</option>
+        </select>
+    </form>
+    
+    <form class="carselect">
+        <select id="selectdevices" onchange="lp(this.value)" target="">
+        <option value="nothing">Select model</option>
+        <option value="#innova">Toyota Innova (AN40)</option>
+        <option value="#aygo">Toyota Aygo 2019</option>
+        <option value="#corolla">Toyota Corolla E210 Hatchback</option>
+        <option value="#gt86">Toyota GT86 2017</option>
+        <option value="#highlander">Toyota Corolla E210 Hatchback</option>
+        </select>
+    </form>
+</head>
+<body>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="innova">Toyota Innova (AN40)</h1>
+            <div class="imgs">
+            <li><img  src="Toyota Innova (AN40)1"><ul id="active1"><img  src="Toyota Innova (AN40)1"></ul></li>
+            <li ><img  src="Toyota Innova (AN40)2">
+            <ul ><img  src="Toyota Innova (AN40)2"></ul></li>
+            <li><img  src="Toyota Innova (AN40)3"><ul><img  src="Toyota Innova (AN40)3"></ul></li>
+            <li><img  src="Toyota Innova (AN40)4"><ul><img  src="Toyota Innova (AN40)4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹ 16.53 - 24.60 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>5.3 L/100km
+                        53 mpg UK / 44 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>4.7 L/100km
+                        60 mpg UK / 50 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>97km</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>65 L
+                        14.3 UK gallons
+                        17.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>128gm/km</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	EFI</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>	Longitudinal</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>9.6</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>160 PS or 158 bhp or 118 kW @ 5200 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>RWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>MPV</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>275 cm or 108.27 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>458.5 cm or 180.51 inches
+                    </td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>	175 cm or 68.9 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>177.5 cm or 69.88 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>	Rack and pinion. PAS -</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>	Coil springs. Double wishbones. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="aygo">Toyota Aygo 2019 </h1>
+            <div class="imgs">
+            <li><img  src="Toyota Aygo 20191"><ul id="active1"><img  src="Toyota Aygo 20191"></ul></li>
+            <li ><img  src="Toyota Aygo 20192">
+            <ul ><img  src="Toyota Aygo 20192"></ul></li>
+            <li><img  src="Toyota Aygo 20193"><ul><img  src="Toyota Aygo 20193"></ul></li>
+            <li><img  src="Toyota Aygo 20194"><ul><img  src="Toyota Aygo 20194"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><id="price">₹ 9.16 - 14.60 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>3.8 L/100km
+                        74 mpg UK / 62 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>	3.5 L/100km
+                        81 mpg UK / 67 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>4.2 L/100km
+                        67 mpg UK / 56 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>	921 Km or 572 miles
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>35 L
+                        7.7 UK gallons
+                        9.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>835 L
+                        7.7 UK gallons
+                        9.2 US gallons</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 3</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Petrol
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>Multipoint Injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>	Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>11.5</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>12 Valves</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>72 PS or 71 bhp or 53 kW @ 6000 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>Hatchback</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>234 cm or 92.13 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>	346.5 cm or 136.42 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>161.5 cm or 63.58 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>146 cm or 57.48 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>	Independent McPherson. Coil Springs.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="corolla">Toyota Corolla E210 Hatchback</h1>
+            <div class="imgs">
+            <li><img  src="Toyota Corolla E210 Hatchback1"><ul id="active1"><img  src="Toyota Corolla E210 Hatchback1"></ul></li>
+            <li ><img  src="Toyota Corolla E210 Hatchback2">
+            <ul ><img  src="Toyota Corolla E210 Hatchback2"></ul></li>
+            <li><img  src="Toyota Corolla E210 Hatchback3"><ul><img  src="Toyota Corolla E210 Hatchback3"></ul></li>
+            <li><img  src="Toyota Corolla E210 Hatchback4"><ul><img  src="Toyota Corolla E210 Hatchback4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹ 9.01-12.39 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>	5.6 L/100km
+                        50 mpg UK / 42 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>	4.8 L/100km
+                        59 mpg UK / 49 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>7.0 L/100km
+                        40 mpg UK / 34 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>892 Km or 554 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>50 L
+                        11 UK gallons
+                        13.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>128 g/Km (Toyota)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>Petrol</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>10.0</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>115 PS or 113 bhp or 85 kW @ 5200 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>6 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>	Hatchback</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>264 cm or 103.94 inches
+                    </td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>	437 cm or 172.05 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>179 cm or 70.47 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>	143.5 cm or 56.5 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>1300 Kg or 2866.01 lbs</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>	Independent McPherson. Coil Springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="gt86">Toyota GT86 2017 </h1>
+            <div class="imgs">
+            <li><img  src="Toyota GT86 20171"><ul id="active1"><img  src="Toyota GT86 20171"></ul></li>
+            <li ><img  src="Toyota GT86 20172">
+            <ul ><img  src="Toyota GT86 20172"></ul></li>
+            <li><img  src="Toyota GT86 20173"><ul><img  src="Toyota GT86 20173"></ul></li>
+            <li><img  src="Toyota GT86 20174"><ul><img  src="Toyota GT86 20174"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹19.39-19.86 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>7.8 L/100km
+                        36 mpg UK / 30 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>	6.4 L/100km
+                        44 mpg UK / 37 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>10.4 L/100km
+                        27 mpg UK / 23 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>641 Km or 398 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>50 L
+                        11 UK gallons
+                        13.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>180 g/Km (Toyota)
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Boxer 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	Direct Injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Longitudinal
+                    </td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>12.5</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>200 PS or 197 bhp or 147 kW @ 7000 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>rwd</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>6 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>Coupé</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>257 cm or 101.18 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>424 cm or 166.93 inche</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>	177.5 cm or 69.88 inches
+                    </td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>	177.5 cm or 69.88 inches
+                    </td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>Hydraulic</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Independent McPherson. Coil Springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="highlander">Toyota Highlander 2.5</h1>
+            <div class="imgs">
+            <li><img  src="Toyota Highlander 2.51"><ul id="active1"><img  src="Toyota Highlander 2.51"></ul></li>
+            <li ><img  src="Toyota Highlander 2.52">
+            <ul ><img  src="Toyota Highlander 2.52"></ul></li>
+            <li><img  src="Toyota Highlander 2.53"><ul><img  src="Toyota Highlander 2.53"></ul></li>
+            <li><img  src="Toyota Highlander 2.54"><ul><img  src="Toyota Highlander 2.54"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹26.23 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>6.6 L/100km
+                        43 mpg UK / 36 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>	5.8 L/100km
+                        49 mpg UK / 41 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>	5.8 L/100km
+                        49 mpg UK / 41 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>984 Km or 612 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>65 L
+                        14.3 UK gallons
+                        17.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>- g/Km (Toyota)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Hybrid / Petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>Multipoint Injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>AWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>1 speed auto CVT</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>SUV / TT</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>285 cm or 112.2 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>496.6 cm or 195.51 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>193 cm or 75.98 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>175.5 cm or 69.09 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>2000 Kg or 4409.24 lbs</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Independent McPherson. Coil Springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>

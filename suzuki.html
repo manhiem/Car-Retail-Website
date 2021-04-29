@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki</title>
+    <link rel="stylesheet" href="mystyles1.css">
+    <link rel="stylesheet" href="areapercar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <nav>
+        <a class="active" href="home.html" target="iframe">Home</a>
+        <a href="news.html" target="iframe">Upcoming</a>
+        <a href="mailto:group13@gmail.com" target="iframe">Contact</a>
+        <a href="#about" target="iframe">About</a>
+        <div class="animation start-home"></div>
+     </nav>
+
+    <form class="brandselect">
+        <select id="selectbrand" onchange="lp(this.value)" >
+        <option value="nothing">Maruthi Suzuki</option>
+        <option value="toyota.html">Toyota</option>
+        <option value="volkswagen.html">Volkswagen</option>
+        <option value="ford.html">Ford</option>
+        <option value="honda.html">Honda</option>
+        <option value="hyundai.html">Hyundai</option>
+        <option value="datsun.html">Datsun</option>
+        <option value="renault.html">Renault</option>
+        <option value="tata.html">Tata</option>
+        <option value="mahindra.html">Mahindra</option>
+        </select>
+    </form>
+    
+    <form class="carselect">
+        <select id="selectdevices" onchange="lp(this.value)" target="">
+        <option value="nothing">Select model</option>
+        <option value="#Suzuki Swift 2021 1.2">Suzuki Swift 2021 1.2</option>
+        <option value="#Suzuki Baleno 2 1.2">Suzuki Baleno 2 1.2</option>
+        <option value="#Suzuki Wagon R+ II">Suzuki Wagon R+ II</option>
+        <option value="#Suzuki Alto 7 GLX">Suzuki Alto 7 GLX</option>
+        <option value="#Suzuki S-Cross 1.4">Suzuki S-Cross 1.4</option>
+        </select>
+    </form>
+</head>
+<body>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Suzuki Swift 2021 1.2">Suzuki Swift 2021 1.2 </h1>
+            <div class="imgs">
+            <li><img  src="Suzuki Swift 2021 1.21"><ul id="active1"><img  src="Suzuki Swift 2021 1.21"></ul></li>
+            <li ><img  src="Suzuki Swift 2021 1.22">
+            <ul ><img  src="Suzuki Swift 2021 1.22"></ul></li>
+            <li><img  src="Suzuki Swift 2021 1.23"><ul><img  src="Suzuki Swift 2021 1.23"></ul></li>
+            <li><img  src="Suzuki Swift 2021 1.24"><ul><img  src="Suzuki Swift 2021 1.24"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹5.73-8.41 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>5.1 L/100km
+                        55 mpg UK / 46 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>4.2 L/100km
+                        67 mpg UK / 56 mpg US
+                        </td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>4.1 L/100km
+                        69 mpg UK / 57 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>787 Km or 489 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>37 L
+                        8.1 UK gallons
+                        9.8 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>106 g/Km (Suzuki)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Mild Petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	Multipoint Injection
+                    </td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>	Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>83 PS or 82 bhp or 61 kW @ 6000 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 Speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>Hatchback</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>	245 cm or 96.46 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>384.5 cm or 151.38 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>173.5 cm or 68.31 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>149.5 cm or 58.86 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>	Independent McPherson. Coil Springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Suzuki Baleno 2 1.2">Suzuki Baleno 2 1.2</h1>
+            <div class="imgs">
+            <li><img  src="Suzuki Baleno 2 1.21"><ul id="active1"><img  src="Suzuki Baleno 2 1.21"></ul></li>
+            <li ><img  src="Suzuki Baleno 2 1.22">
+            <ul ><img  src="Suzuki Baleno 2 1.22"></ul></li>
+            <li><img  src="3Suzuki Baleno 2 1.2"><ul><img  src="Suzuki Baleno 2 1.23"></ul></li>
+            <li><img  src="Suzuki Baleno 2 1.24"><ul><img  src="Suzuki Baleno 2 1.24"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹5.90-9.10 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>4.2 L/100km
+                        67 mpg UK / 56 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>3.6 L/100km
+                        78 mpg UK / 65 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>5.3 L/100km
+                        53 mpg UK / 44 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>	880 Km or 547 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>37 L
+                        8.1 UK gallons
+                        9.8 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>	98 g/Km (Suzuki)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	Multipoint Injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>	Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>12.5</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>90 PS or 89 bhp or 66 kW @ 6000 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 Speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>Hatchback</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>252 cm or 99.21 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>399.5 cm or 157.28 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>174.5 cm or 68.7 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>147 cm or 57.87 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Independent McPherson. Coil Springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Suzuki Wagon R+ II">Suzuki Wagon R+ II </h1>
+            <div class="imgs">
+            <li><img  src="Suzuki Wagon R+ II1"><ul id="active1"><img  src="Suzuki Wagon R+ II1"></ul></li>
+            <li ><img  src="Suzuki Wagon R+ II2">
+            <ul ><img  src="Suzuki Wagon R+ II2"></ul></li>
+            <li><img  src="Suzuki Wagon R+ II3"><ul><img  src="Suzuki Wagon R+ II3"></ul></li>
+            <li><img  src="Suzuki Wagon R+ II4"><ul><img  src="Suzuki Wagon R+ II4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹4.65 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>5.8 L/100km
+                        49 mpg UK / 41 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>5.1 L/100km
+                        55 mpg UK / 46 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>7.0 L/100km
+                        40 mpg UK / 34 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>706 Km or 439 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>41 L
+                        9 UK gallons
+                        10.8 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>139 g/Km (Suzuki)
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 3</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	MPI</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>10.5</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>60 PS or 59 bhp or 44 kW @ 5600 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>fwd</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>236 cm or 92.91 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>354 cm or 139.37 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>160 cm or 62.99 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>166 cm or 65.35 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Independent. McPherson. coil springs. anti-roll bar</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Suzuki Alto 7 GLX">Suzuki Alto 7 GLX</h1>
+            <div class="imgs">
+            <li><img  src="Suzuki Alto 7 GLX1"><ul id="active1"><img  src="Suzuki Alto 7 GLX1"></ul></li>
+            <li ><img  src="Suzuki Alto 7 GLX2">
+            <ul ><img  src="Suzuki Alto 7 GLX2"></ul></li>
+            <li><img  src="Suzuki Alto 7 GLX3"><ul><img  src="Suzuki Alto 7 GLX3"></ul></li>
+            <li><img  src="Suzuki Alto 7 GLX4"><ul><img  src="Suzuki Alto 7 GLX4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹4.57 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>4.4 L/100km
+                        64 mpg UK / 53 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>3.8 L/100km
+                        74 mpg UK / 62 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>	5.5 L/100km
+                        51 mpg UK / 43 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>795 Km or 494 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>35 L
+                        7.7 UK gallons
+                        9.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>103 g/Km (Suzuki)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>Inline 3</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>	Petrol
+                    </td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>SI</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>68 PS or 67 bhp or 50 kW @ 6000 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>236 cm or 92.91 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>350 cm or 137.8 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>160 cm or 62.99 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>147 cm or 57.87 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>	Independent. McPherson struts. Coil springs. Anti-roll bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Suzuki S-Cross 1.4">Suzuki S-Cross 1.4</h1>
+            <div class="imgs">
+            <li><img  src="Suzuki S-Cross 1.41"><ul id="active1"><img  src="Suzuki S-Cross 1.41"></ul></li>
+            <li ><img  src="Suzuki S-Cross 1.42">
+            <ul ><img  src="Suzuki S-Cross 1.42"></ul></li>
+            <li><img  src="Suzuki S-Cross 1.43"><ul><img  src="Suzuki S-Cross 1.43"></ul></li>
+            <li><img  src="Suzuki S-Cross 1.44"><ul><img  src="Suzuki S-Cross 1.44"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹ 8.39-12.39 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>7.6 L/100km
+                        37 mpg UK / 31 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>5.9 L/100km
+                        48 mpg UK / 40 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>5.4 L/100km
+                        52 mpg UK / 44 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>793 Km or 493 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>50 L
+                        11 UK gallons
+                        13.2 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>142 g/Km (Suzuki)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>petrol</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>Direct Injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>9.9</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>129 PS or 127 bhp or 95 kW @ 5500 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>AWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>6 speed Automatic</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>SUV / TT</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>260 cm or 102.36 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>430 cm or 169.29 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>178.5 cm or 70.28 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>158.5 cm or 62.4 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>1500 Kg or 3306.93 lbs</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>hyd</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Independent McPherson. Coil Springs. Anti-roll bar.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+</body>

@@ -1,0 +1,119 @@
++toyota              4
+
+innova
+fortuner
+urban cruiser
+glanza
+yaris
+vellfire
+camry
+yari cross
+
+
+
+volkswagen          10
+
+polo
+t-roc
+vento
+tigun Allspace
+
+
+
+ford motor          8
+
+ecospaot
+Endeavour
+figo
+freestyle
+aspire
+
+
+
+
+honda motor         7
+
+amaze
+all new city
+jazz
+WR-V
+city
+
+hyundai motor/ki    2
+
+creta
+venue
+i20
+grand i10 Nios
+verna
+Aura
+Santro
+Elantra
+
+
+
+Maruti  suzuki      1 
+
+
+1. Maruti Suzuki Swift 20,264
+2. Maruti Suzuki Baleno 20,070 
+3. Maruti Suzuki Wagon R 18,728 
+4. Maruti Suzuki Alto 16,919 
+5. Hyundai Creta 12,428 
+6. Maruti Suzuki Dzire 11,901 
+7. Maruti Suzuki Eeco 11,891 
+8. Maruti Suzuki Vitara Brezza 11,585 
+9. Hyundai Venue 11,224 
+10. Hyundai Grand i10 Nios 10,270
+
+
+datsun               9
+
+
+redi-GO
+GO+
+510
+truck
+Nissan s30
+bluebird 910
+
+
+
+renault              6
+
+kiger
+kwid
+triber
+clio
+duster
+
+
+
+
+tata                 5
+
+nexon altroz
+safari
+harrier
+tigor
+nexon ev
+tigor ev
+
+
+
+mahindra             3
+
+thar
+XUV300
+Bolero
+marazzo
+KUV100 NXT
+Alturas g4
+
+
+
+
+
+
+
+

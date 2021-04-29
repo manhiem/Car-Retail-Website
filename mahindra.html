@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahindra</title>
+    <link rel="stylesheet" href="mystyles1.css">
+    <link rel="stylesheet" href="areapercar.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
+    <script src="javascript.js"></script>
+    <nav>
+        <a class="active" href="home.html" target="iframe">Home</a>
+        <a href="news.html" target="iframe">Upcoming</a>
+        <a href="mailto:group13@gmail.com" target="iframe">Contact</a>
+        <a href="#about" target="iframe">About</a>
+        <div class="animation start-home"></div>
+     </nav>
+
+    <form class="brandselect">
+        <select id="selectbrand" onchange="lp(this.value)" >
+        <option value="nothing">Mahindra</option>
+        <option value="toyota.html">Toyota</option>
+        <option value="volkswagen.html">Volkswagen</option>
+        <option value="ford.html">Ford</option>
+        <option value="honda.html">Honda</option>
+        <option value="hyundai.html">Hyundai</option>
+        <option value="datsun.html">Datsun</option>
+        <option value="renault.html">Renault</option>
+        <option value="tata.html">Tata</option>
+        <option value="suzuki.html">Maruthi Suzuki</option>
+        </select>
+    </form>
+    
+    <form class="carselect">
+        <select id="selectdevices" onchange="lp(this.value)" target="">
+        <option value="nothing">Select model</option>
+        <option value="#Mahindra XUV 500">Mahindra XUV 500</option>
+        <option value="#Mahindra Thar">Mahindra Thar</option>
+        <option value="#Mahindra Bolero 2.5D">Mahindra Bolero 2.5D</option>
+        <option value="#Mahindra Xylo 2.5D">Mahindra Xylo 2.5D</option>
+        </select>
+    </form>
+</head>
+<body>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Mahindra XUV 500">Mahindra XUV 500 </h1>
+            <div class="imgs">
+            <li><img  src="Mahindra XUV 5001"><ul id="active1"><img  src="Mahindra XUV 5001"></ul></li>
+            <li ><img  src="Mahindra XUV 5002">
+            <ul ><img  src="Mahindra XUV 5002"></ul></li>
+            <li><img  src="Mahindra XUV 5003"><ul><img  src="Mahindra XUV 5003"></ul></li>
+            <li><img  src="Mahindra XUV 5004"><ul><img  src="Mahindra XUV 5004"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹15.13 - 19.56 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>	70 L
+                        15.4 UK gallons
+                        18.5 US gallons</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>40L</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>300gm</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Diesel</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	common rail direct diesel injection</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Longitudinal</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>	140 PS or 138 bhp or 103 kW @ 3750 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>AWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>6 Speed Manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>SUV</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>270 cm or 106.3 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>458.5 cm or 180.51 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>189 cm or 74.41 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>	178.5 cm or 70.28 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>n/a</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>Hydraulic</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>McPherson struts. Anti-roll bar.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Mahindra Thar">Mahindra Thar</h1>
+            <div class="imgs">
+            <li><img  src="Mahindra Thar1"><ul id="active1"><img  src="Mahindra Thar1"></ul></li>
+            <li ><img  src="Mahindra Thar2">
+            <ul ><img  src="Mahindra Thar2"></ul></li>
+            <li><img  src="Mahindra Thar3"><ul><img  src="Mahindra Thar3"></ul></li>
+            <li><img  src="Mahindra Thar4"><ul><img  src="Mahindra Thar4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹ 12.10-14.15 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>8.9 L/100km
+                        32 mpg UK / 26 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>8.0 L/100km
+                        35 mpg UK / 29 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>10.5 L/100km
+                        27 mpg UK / 22 mpg US</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>674 Km or 419 miles</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>60 L
+                        13.2 UK gallons
+                        15.9 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>237 g/Km (Mahindra)
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Diesel</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	Direct Injection.</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Longitudinal</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>107 PS or 106 bhp or 79 kW @ 3800 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>AWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 speed manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>TT</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>243 cm or 95.67 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>392 cm or 154.33 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>171 cm or 67.32 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>193 cm or 75.98 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>1045KG</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>Hydraulic</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Torsion bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Mahindra Bolero 2.5D">Mahindra Bolero 2.5D</h1>
+            <div class="imgs">
+            <li><img  src="Mahindra Bolero 2.5D1"><ul id="active1"><img  src="Mahindra Bolero 2.5D1"></ul></li>
+            <li ><img  src="Mahindra Bolero 2.5D2">
+            <ul ><img  src="Mahindra Bolero 2.5D2"></ul></li>
+            <li><img  src="Mahindra Bolero 2.5D3"><ul><img  src="Mahindra Bolero 2.5D3"></ul></li>
+            <li><img  src="Mahindra Bolero 2.5D4"><ul><img  src="Mahindra Bolero 2.5D4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹8.17 - 9.14 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>62 L
+                        13.6 UK gallons
+                        16.4 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>- g/Km (Mahindra)</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Diesel</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td>	Direct Injection.</td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Longitudinal</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>19</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>	101 PS or 100 bhp or 74 kW @ 3800 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>AWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 Speed Manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>Pick Up</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>301.4 cm or 118.66 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>492.4 cm or 193.86 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>181.5 cm or 71.46 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>188.5 cm or 74.21 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>Recirculating ball</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>Torsion bar.</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="areapercar">
+        <div class="productimgs">
+            <h1 class="carname" id="Mahindra Xylo 2.5D">Mahindra Xylo 2.5D </h1>
+            <div class="imgs">
+            <li><img  src="Mahindra Xylo 2.5D1"><ul id="active1"><img  src="Mahindra Xylo 2.5D1"></ul></li>
+            <li ><img  src="Mahindra Xylo 2.5D2">
+            <ul ><img  src="Mahindra Xylo 2.5D2"></ul></li>
+            <li><img  src="Mahindra Xylo 2.5D3"><ul><img  src="Mahindra Xylo 2.5D3"></ul></li>
+            <li><img  src="Mahindra Xylo 2.5D4"><ul><img  src="Mahindra Xylo 2.5D4"></ul></li>
+            
+        </div>
+        <div class="buycart"><button type="button" id="buybutton" onclick="myFunction()"><strong>BUY NOW</strong></button>
+            <button type="button" id="cartbutton" onclick="myFunction()"><strong>Add to cart</strong></button><h3 id="price">₹8.51 - 12.0 lakh</h3></div>
+        </div>
+        <div class="specs1">
+            <table id="specstable_1">
+                <tr>
+                    <td>Fuel Consumption - Economy - Combined</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - Highway</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Fuel Consumption - Economy - City</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Range</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Fuel Tank Capacity</td>
+                    <td>55 L
+                        12.1 UK gallons
+                        14.5 US gallons</td>
+                </tr>
+                <tr>
+                    <td>CO2 emissions </td>
+                    <td>N/A</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs2">
+            <table id="specstable_2">
+                <tr>
+                    <td>Engine type - Number of cylinders</td>
+                    <td>	Inline 4</td>
+                </tr>
+                <tr>
+                    <td>Fuel type</td>
+                    <td>Diesel</td>
+                </tr>
+                <tr>
+                    <td>Fuel System</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Engine Alignment</td>
+                    <td>Transverse</td>
+                </tr>
+                <tr>
+                    <td>Compression ratio</td>
+                    <td>17.80</td>
+                </tr>
+                <tr>
+                    <td>Number of valves</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Maximum power - Output - Horsepower</td>
+                    <td>114 PS or 112 bhp or 84 kW @ 3800 rpm</td>
+                </tr>
+                <tr>
+                    <td>Drive wheels - Traction - Drivetrain</td>
+                    <td>FWD</td>
+                </tr>
+                <tr>
+                    <td>Transmission Gearbox - Number of speeds</td>
+                    <td>5 Speed Manual</td>
+                </tr>
+            </table>
+        </div>
+        <div class="specs3">
+            <table id="specstable_3">
+                <tr>
+                    <td>Body</td>
+                    <td>MPV</td>
+                </tr>
+                <tr>
+                    <td>Num. of Doors</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Wheelbase</td>
+                    <td>	276 cm or 108.66 inches</td>
+                </tr>
+                <tr>
+                    <td>Length </td>
+                    <td>	452 cm or 177.95 inches</td>
+                </tr>
+                <tr>
+                    <td>Width </td>
+                    <td>185 cm or 72.83 inches</td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td>189.5 cm or 74.61 inches</td>
+                </tr>
+                <tr>
+                    <td>Max. Towing Capacity Weight</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Steering</td>
+                    <td>N/A</td>
+                </tr>
+                <tr>
+                    <td>Front Suspension</td>
+                    <td>N/A</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
